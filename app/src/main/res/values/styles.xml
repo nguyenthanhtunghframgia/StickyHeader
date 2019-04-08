@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.HomeScreen" parent="AppTheme">
+        <!--Status bar color-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--Window status bar color-->
+        <item name="colorPrimaryDark">@color/green</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--Status bar text color-->
+        <item name="android:textColorPrimary">@color/red_light</item>
+        <!--Navigation bar color-->
+        <item name="android:navigationBarColor" tools:ignore="NewApi">@color/base_red</item>
+    </style>
+
+</resources>
